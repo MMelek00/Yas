@@ -55,5 +55,5 @@ You will need to make one more step to install pods dependencies, run the follow
 <p float="left">
   <img src="docs/assets/screenshots/Screenshot1.png" width="350" title="charactersList">
   <img src="docs/assets/screenshots/Screenshot2.png" width="350" title="charactersSearch">
-  <img src="docs/assets/screenshots/Screenshot1.png" width="350" title="charactersDetails">
+  <img src="docs/assets/screenshots/Screenshot3.png" width="350" title="charactersDetails">
 </p>
