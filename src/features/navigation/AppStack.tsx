@@ -1,12 +1,15 @@
 import * as React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import { CharacterList } from "../character-list/CharacterList";
-import { CharacterDetails } from "../character-details/CharacterDetails";
+import { CharacterList } from "../characterList";
+import { CharacterDetails } from "../characterDetails";
 
 export type AppStackParamsList = {
   CharacterList: undefined;
-  CharacterDetails: undefined;
+  CharacterDetails: {
+    id: number | string;
+    name: string;
+  };
 };
 
 const Stack = createStackNavigator<AppStackParamsList>();
