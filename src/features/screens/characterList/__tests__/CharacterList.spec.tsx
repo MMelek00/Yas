@@ -3,7 +3,7 @@ import { render, cleanup, waitFor } from "@testing-library/react-native";
 import React from "react";
 import { MockedProvider } from "@apollo/client/testing";
 import { CharacterList } from "..";
-import { FETCH_CHARACTERS } from "../../../services/network/Query";
+import { FETCH_CHARACTERS } from "../../../../services/network/Query";
 const mockedNavigate = jest.fn();
 
 jest.mock("@react-navigation/native", () => {
@@ -54,9 +54,7 @@ describe("CharacterList", () => {
 const mock = {
   request: {
     query: FETCH_CHARACTERS,
-    variables: {
-      page: 1,
-    },
+    variables: { page: 1 },
   },
   result: {
     data: {

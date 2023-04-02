@@ -1,6 +1,6 @@
 import React from "react";
 import { View, TextInput, ViewStyle, TextInputProps } from "react-native";
-import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import Icon from "react-native-vector-icons/AntDesign";
 import { COLORS } from "../../common";
 import styles from "./styles";
 
@@ -22,7 +22,7 @@ let SearchBox: React.FC<SearchBoxProps> = ({ containerStyle, ...rest }: SearchBo
           style={styles.textInput}
           {...rest}
         />
-        <Icon name={"magnify"} size={25} style={styles.searchIcon} color={COLORS.gray} />
+        <Icon name={"search1"} size={25} style={styles.searchIcon} color={COLORS.gray} />
       </View>
     </View>
   );
