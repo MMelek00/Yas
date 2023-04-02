@@ -3,12 +3,12 @@ import { View, Text, FlatList, ActivityIndicator, Platform, TouchableOpacity } f
 import { useLazyQuery } from "@apollo/client";
 import { useNavigation } from "@react-navigation/native";
 import _ from "lodash";
-import { FETCH_CHARACTERS } from "../../services/network/Query";
-import { Character, CharactersQueryType } from "../../services/network/Types";
+import { FETCH_CHARACTERS } from "../../../services/network/Query";
+import { Character, CharactersQueryType } from "../../../services/network/Types";
 import styles from "./styles";
-import { ACTIVE_OPACITY, COLORS, STRINGS, STYLES } from "../common";
-import { errorHandler } from "../../utils";
-import { CharacterCard, SearchBox } from "../components";
+import { ACTIVE_OPACITY, COLORS, STRINGS, STYLES } from "../../common";
+import { errorHandler } from "../../../utils";
+import { CharacterCard, SearchBox } from "../../components";
 import Icon from "react-native-vector-icons/AntDesign";
 
 export const CharacterList: React.FC = () => {

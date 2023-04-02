@@ -1,8 +1,8 @@
 import * as React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import { CharacterList } from "../characterList";
-import { CharacterDetails } from "../characterDetails";
+import { CharacterList } from "../screens/characterList";
+import { CharacterDetails } from "../screens/characterDetails";
 
 export type AppStackParamsList = {
   CharacterList: undefined;
