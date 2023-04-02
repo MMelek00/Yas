@@ -4,7 +4,7 @@ enum CacheControlScope {
   PRIVATE
 }
 
-type Character {
+interface Character {
   # The id of the character.
   id: ID
   # The name of the character.
